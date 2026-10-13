@@ -17,7 +17,7 @@ const HeroBranding = () => {
         {[...Array(10)].map((_, i) => (
           <div key={i} className="flex items-center mx-4">
             <img 
-              src="https://i.imgur.com/Quntd7A.png" 
+              src="https://i.imgur.com/zjKZT4x.jpeg" 
               alt="Crumbl Cookies Logo" 
               className="h-8 sm:h-10 w-auto object-contain"
             />
