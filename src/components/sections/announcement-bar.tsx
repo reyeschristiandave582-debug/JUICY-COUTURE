@@ -80,9 +80,9 @@ export default function AnnouncementBar() {
 
   return (
     <>
-      {/* Top Banner Bar - Custom Dark Background with iOS Safe Area Padding & Security Badges */}
+      {/* Top Banner Bar - Custom #dd3f60 Background with iOS Safe Area Padding & Security Badges */}
       <div 
-        className="sticky top-0 z-50 w-full bg-[#000001] border-b border-white/10 pb-2 px-3 sm:px-4 shadow-sm backdrop-blur-md"
+        className="sticky top-0 z-50 w-full bg-[#dd3f60] border-b border-white/10 pb-2 px-3 sm:px-4 shadow-sm backdrop-blur-md"
         style={{ paddingTop: "calc(env(safe-area-inset-top, 0px) + 12px)" }}
       >
         {/* Background Sparkles */}
@@ -104,7 +104,7 @@ export default function AnnouncementBar() {
             <Lock className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-white shrink-0 -mt-0.5" strokeWidth={2.5} />
             <p className="text-white text-[9.5px] xs:text-[10.5px] sm:text-[11.5px] font-bold tracking-tight leading-none flex items-center gap-1.5 flex-wrap justify-center">
               <span>Your spot is reserved for:</span>
-              <span className="inline-flex items-center gap-1 bg-[#18181b] border border-white/20 text-white px-1.5 py-0.5 rounded font-mono text-[9px] xs:text-[10px] sm:text-[11px] font-bold shadow-sm">
+              <span className="inline-flex items-center gap-1 bg-black/20 border border-white/20 text-white px-1.5 py-0.5 rounded font-mono text-[9px] xs:text-[10px] sm:text-[11px] font-bold shadow-sm">
                 <Clock className="w-2.5 h-2.5 text-white animate-pulse" />
                 <span>{formatTime(timeLeft)}</span>
               </span>
@@ -118,7 +118,7 @@ export default function AnnouncementBar() {
             </span>
             <span className="text-white/40 text-[7.5px]">&bull;</span>
             <div className="flex items-center gap-1 text-[7.5px] xs:text-[8px] sm:text-[8.5px] font-semibold text-white/95">
-              <ShieldCheck className="w-2.5 h-2.5 text-emerald-300" strokeWidth={2.5} />
+              <ShieldCheck className="w-2.5 h-2.5 text-emerald-200" strokeWidth={2.5} />
               <span className="uppercase tracking-wider">256-BIT SSL SECURED</span>
             </div>
           </div>
@@ -139,7 +139,7 @@ export default function AnnouncementBar() {
               : "-translate-y-3 opacity-0"
           }`}
         >
-          <div className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-[#000001] text-white">
+          <div className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-[#dd3f60] text-white">
             <Check className="w-2.5 h-2.5" strokeWidth={3} />
           </div>
 
